@@ -20,11 +20,7 @@ localStorage.removeItem('isLoggedIn');
 
 
 /**
- * 
- * 
- * 
- * 
-Introduction:
+
 localStorage is a web storage API in JavaScript that allows web 
 applications to store data persistently in a user's browser.
 Unlike session storage, which is limited to a session, localStorage 
@@ -63,7 +59,9 @@ Numbers: Integer or floating-point numbers can be stored.
 
 Booleans: true or false values can be stored.
 
-Objects: JavaScript objects can be stored, but they need to be converted to strings using JSON.stringify before storing and JSON.parse when retrieving.
+Objects: JavaScript objects can be stored, but they need to be 
+converted to strings using JSON.stringify before storing and
+JSON.parse when retrieving.
 
 Arrays: Arrays can be stored using similar serialization techniques.
 
