@@ -1,0 +1,69 @@
+/* .parentProfile {} */
+
+.profile {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.profilePic {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+}
+
+.profileInputs {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fullname {
+    padding: 8px;
+}
+
+.profession {
+    padding: 8px;
+}
+
+/* Styling the button  */
+.submitBtn {
+    padding: 8px;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(34, 34, 223);
+    border-radius: 5px;
+}
+
+.submitBtn:hover {
+    background-color: red
+}
+
+
+/* The dynamically displayed Items  */
+.responseContent{
+    margin-top: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 50px;
+
+}
+
+.fullnameDisplayed{
+    color:rgb(150, 132, 132);
+    font-size: 40px;
+    font-style: italic;
+}
+
+.proffessionDisplayed{
+    color:rgb(150, 132, 132);
+    font-size: 40px;
+    font-style: italic;
+}
